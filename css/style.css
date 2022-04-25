@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+}
+
+.box {
+  width: 150px;
+  height: 250px;
+  background-color: #1569c7;
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+
+.btn {
+  width: 100px;
+  height: 40px;
+  margin: 7px auto;
+  display: block;
+  background-color: #00ff00;
+  color: white;
+  font-size: 16px;
+}
+
+.inp {
+  padding: 0;
+  background-color: #1569c7;
+  border: none;
+}
+
+.result {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.square {
+  background-color: grey;
+  padding: 1px;
+  box-sizing: border-box;
+  border: 1px solid white;
+}
